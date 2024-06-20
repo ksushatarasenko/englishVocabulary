@@ -351,8 +351,8 @@ th {
    text-decoration: none;
    position: absolute;
    background-color: rgb(153, 192, 252);
-   width: 25px;
-   height: 25px;
+   width: 30px;
+   height: 30px;
    border-radius: 50%;
    display: flex;
    align-items: center;
