@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parht 1.1</title>
+    <style>
+        #number1 { top: 10%; left: 20.4%; }
+        #number2 { top: 21.7%; left: 17.8%; }
+        #number3 { top: 27.5%; left: 15%; }
+        #number4 { top: 34.4%; left: 15.9%; }
+        #number5 { top: 43.6%; left: 12.3%; }
+        #number6 { top: 53.4%; left: 13.17%; }
+        #number7 { top: 65.2%; left: 20.1%; }
+        #number8 { top: 78.8%; left: 21.6%; }
+        #number9 { top: 95%; left: 20.58%; }
+        #number10{ top: 62%; left: 48.2%; }
+        #number11 { top: 70.28%;left: 49%; }
+        #number12 { top: 78.4%; left: 48.2%; }
+        #number13 { top: 91.8%; left: 47.3%; }
+        #number14 { top: 7.268%; left: 52.3%; }
+        #number15 { top: 7.2%; left: 60.3%; }
+        #number16 { top: 21.2%; left: 75.2%; }
+        #number17 { top: 28.5%; left: 79.6%; }
+        #number18 { top: 37.5%; left: 79.6%; }
+        #number19 { top: 42.4%; left: 79.6%; }
+        #number20 { top: 47%; left: 79.6%; }
+        #number21 { top: 57.55%; left: 79.6%; }
+        #number22 { top: 62%; left: 74.5%; }
+        #number23 { top: 67.5%; left: 74.5%; }
+        #number24 { top: 73.6%; left: 74.5%; }
+        #number25 { top: 83%; left: 74.5%; }
+        #number26 { top: 91%; left: 74.5%; }
+    </style>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+            <!-- <ul class="ulhead">
+                <li class="li"><a href="../matematyka/indexMatemat.html">Математика</a></li>
+                <li class="li"><a href="../ukrMova/movaHome.html">Укр.мова</a></li>
+                <li class="li"><a href="../czytanie/chytaniaHome.html">Читання</a></li>
+                <li class="li"><a href="../jds/jdsHome.html">ЯДС</a></li>
+                <li class="li"><a href="../informatyka/informatykaHome.html">Інформатика</a></li>
+                <li class="li"><a href="../english/englishHome.html">English</a></li>
+                <li class="li"><a href="../mystectvo/mystectvoHome.html">Мистецтво</a></li>
+                <li class="li"><a href="#">Фінанси</a></li>
+            </ul> -->
+        </header>
+        <main class="main">
+            <h1>Parts of the body</h1>
+            <div style="position: relative; display: inline-block;">
+                <div class="image"><img src="./img1.1.png" alt="Человеческое тело"></div>
+                
+                
+                <!-- Определение кликабельных номеров -->
+                <div id="number1" class="number" onclick="playAudio(1)">1</div>
+                <div id="number2" class="number" onclick="playAudio(2)">2</div>
+                <div id="number3" class="number" onclick="playAudio(3)">3</div>
+                <div id="number4" class="number" onclick="playAudio(4)">4</div>
+                <div id="number5" class="number" onclick="playAudio(5)">5</div>
+                <div id="number6" class="number" onclick="playAudio(6)">6</div>
+                <div id="number7" class="number" onclick="playAudio(7)">7</div>
+                <div id="number8" class="number" onclick="playAudio(8)">8</div>
+                <div id="number9" class="number" onclick="playAudio(9)">9</div>
+                <div id="number10" class="number" onclick="playAudio(10)">10</div>
+                <div id="number11" class="number" onclick="playAudio(11)">11</div>
+                <div id="number12" class="number" onclick="playAudio(12)">12</div>
+                <div id="number13" class="number" onclick="playAudio(13)">13</div>
+                <div id="number14" class="number" onclick="playAudio(14)">14</div>
+                <div id="number15" class="number" onclick="playAudio(15)">15</div>
+                <div id="number16" class="number" onclick="playAudio(16)">16</div>
+                <div id="number17" class="number" onclick="playAudio(17)">17</div>
+                <div id="number18" class="number" onclick="playAudio(18)">18</div>
+                <div id="number19" class="number" onclick="playAudio(19)">19</div>
+                <div id="number20" class="number" onclick="playAudio(20)">20</div>
+                <div id="number21" class="number" onclick="playAudio(21)">21</div>
+                <div id="number22" class="number" onclick="playAudio(22)">22</div>
+                <div id="number23" class="number" onclick="playAudio(23)">23</div>
+                <div id="number24" class="number" onclick="playAudio(24)">24</div>
+                <div id="number25" class="number" onclick="playAudio(25)">25</div>
+                <div id="number26" class="number" onclick="playAudio(26)">26</div>
+
+                <!-- Добавьте остальные номера здесь аналогично -->
+            </div>
+            
+            <!-- Аудио файлы -->
+            <audio id="audio1" src="./audio/1.1/efeidic_1.1.1_uk.mp3"></audio>
+            <audio id="audio2" src="./audio/1.1/efeidic_1.1.2_uk.mp3"></audio>
+            <audio id="audio3" src="./audio/1.1/efeidic_1.1.3_uk.mp3"></audio>
+            <audio id="audio4" src="./audio/1.1/efeidic_1.1.4_uk.mp3"></audio>
+            <audio id="audio5" src="./audio/1.1/efeidic_1.1.5_uk.mp3"></audio>
+            <audio id="audio6" src="./audio/1.1/efeidic_1.1.6_uk.mp3"></audio>
+            <audio id="audio7" src="./audio/1.1/efeidic_1.1.7_uk.mp3"></audio>
+            <audio id="audio8" src="./audio/1.1/efeidic_1.1.8_uk.mp3"></audio>
+            <audio id="audio9" src="./audio/1.1/efeidic_1.1.9_uk.mp3"></audio>
+            <audio id="audio10" src="./audio/1.1/efeidic_1.1.10_uk.mp3"></audio>
+            <audio id="audio11" src="./audio/1.1/efeidic_1.1.11_uk.mp3"></audio>
+            <audio id="audio12" src="./audio/1.1/efeidic_1.1.12_uk.mp3"></audio>
+            <audio id="audio13" src="./audio/1.1/efeidic_1.1.13_uk.mp3"></audio>
+            <audio id="audio14" src="./audio/1.1/efeidic_1.1.14_uk.mp3"></audio>
+            <audio id="audio15" src="./audio/1.1/efeidic_1.1.15_uk.mp3"></audio>
+            <audio id="audio16" src="./audio/1.1/efeidic_1.1.16_uk.mp3"></audio>
+            <audio id="audio17" src="./audio/1.1/efeidic_1.1.17_uk.mp3"></audio>
+            <audio id="audio18" src="./audio/1.1/efeidic_1.1.18_uk.mp3"></audio>
+            <audio id="audio19" src="./audio/1.1/efeidic_1.1.19_uk.mp3"></audio>
+            <audio id="audio20" src="./audio/1.1/efeidic_1.1.20_uk.mp3"></audio>
+            <audio id="audio21" src="./audio/1.1/efeidic_1.1.21_uk.mp3"></audio>
+            <audio id="audio22" src="./audio/1.1/efeidic_1.1.22_uk.mp3"></audio>
+            <audio id="audio23" src="./audio/1.1/efeidic_1.1.23_uk.mp3"></audio>
+            <audio id="audio24" src="./audio/1.1/efeidic_1.1.24_uk.mp3"></audio>
+            <audio id="audio25" src="./audio/1.1/efeidic_1.1.25_uk.mp3"></audio>
+            <audio id="audio26" src="./audio/1.1/efeidic_1.1.26_uk.mp3"></audio>
+            <!-- Добавьте остальные аудиофайлы здесь аналогично -->
+        
+            <div class="video">
+                <iframe src="https://quizlet.com/925226974/match/embed?i=4wzil5&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+            </div>
+            <script>
+                function playAudio(number) {
+                    var audio = document.getElementById('audio' + number);
+                    if (audio) {
+                        audio.play();
+                    }
+                }
+            </script>
+        </body>
+        </html>
+        </main>
+    </div>
+    
+</body>
+
+</html>
